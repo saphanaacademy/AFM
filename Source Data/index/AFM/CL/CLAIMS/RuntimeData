@@ -1,0 +1,25 @@
+# SAP NewDB - do not edit
+# indexid: AFM:CLAIMS (388)
+creationtimestamp=1416921768588
+modifytimestamp=0
+lastmergetimestamp=0
+lasthistorizationmergetid=0
+lastreplaylogtimestamp=1416921768593
+lastcorrectiontimestamp=0
+lasttruncationtimestamp=0
+rawcountmain=0
+rawcountdelta=2000
+lastoptimizedcompressionrowcount=0
+changedrowcountsincelastoptimizecompression=0
+deletedrowsinmainafterlastmerge=0
+visiblecountmain=0
+visiblecountdelta=2000
+estimatedmaxmemsizemain=30600
+estimatedmaxmemsizedelta=621368
+maxrowid=2000
+maxhashid=4294967296
+hashidcounters=
+maxudiv0=0
+maxudiv1=2000
+maxmergecid=0
+singlevaluecache=

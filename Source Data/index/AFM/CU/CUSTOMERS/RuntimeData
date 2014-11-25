@@ -1,0 +1,25 @@
+# SAP NewDB - do not edit
+# indexid: AFM:CUSTOMERS (387)
+creationtimestamp=1416921742671
+modifytimestamp=0
+lastmergetimestamp=0
+lasthistorizationmergetid=0
+lastreplaylogtimestamp=1416921742679
+lastcorrectiontimestamp=0
+lasttruncationtimestamp=0
+rawcountmain=0
+rawcountdelta=150
+lastoptimizedcompressionrowcount=0
+changedrowcountsincelastoptimizecompression=0
+deletedrowsinmainafterlastmerge=0
+visiblecountmain=0
+visiblecountdelta=150
+estimatedmaxmemsizemain=14400
+estimatedmaxmemsizedelta=207575
+maxrowid=150
+maxhashid=4294967296
+hashidcounters=
+maxudiv0=0
+maxudiv1=150
+maxmergecid=0
+singlevaluecache=
