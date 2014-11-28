@@ -1,0 +1,6 @@
+# Insert your R code here:
+library(cluster);
+clusters <- kmeans(rscript_input_tab[c(2,3,4,5)],3);
+
+# Result assigment:
+$(node.outputs[0].name) <- cbind(rscript_input_tab[c(1)], CLUSTERNR=clusters$cluster);
