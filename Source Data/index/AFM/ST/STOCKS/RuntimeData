@@ -1,28 +1,28 @@
 # SAP NewDB - do not edit
-# indexid: SHA::AFM:CLAIMS_NEW (t 365)
-creationtimestamp=1416921810067
+# indexid: AFM:STOCKS (t 367)
+creationtimestamp=1462172880052
 modifytimestamp=0
 lastmergetimestamp=0
 lasthistorizationmergetid=0
-lastreplaylogtimestamp=1416921810074
+lastreplaylogtimestamp=1462172880054
 lastcorrectiontimestamp=0
 lasttruncationtimestamp=0
 lastoctimestamp=0
 rawcountmain=0
-rawcountdelta=147
+rawcountdelta=180
 lastoptimizedcompressionrowcount=0
 changedrowcountsincelastoptimizecompression=0
 deletedrowsinmainafterlastmerge=0
 visiblecountmain=0
-visiblecountdelta=147
-estimatedmaxmemsizemain=28800
-estimatedmaxmemsizedelta=362396
-lastestimatedmemsize=220800
-lastestimatedmemsizetime=1462172809431
-maxrowid=147
+visiblecountdelta=180
+estimatedmaxmemsizemain=7200
+estimatedmaxmemsizedelta=371000
+lastestimatedmemsize=55200
+lastestimatedmemsizetime=1462172880052
+maxrowid=180
 maxhashid=4294967296
-hashidcounters=0
+hashidcounters=
 maxudiv0=0
-maxudiv1=147
+maxudiv1=180
 maxmergecid=0
 singlevaluecache=
