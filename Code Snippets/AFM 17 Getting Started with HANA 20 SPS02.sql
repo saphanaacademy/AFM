@@ -3,7 +3,7 @@
 --------------------------------
 
 -- check AFL PAL functions are installed
-SELECT * FROM SYS.AFL_FUNCTIONS WHERE PACKAGE_NAME='PAL' AND FUNCTION_NAME LIKE '%_ANY';
+SELECT * FROM SYS.AFL_FUNCTIONS WHERE PACKAGE_NAME='PAL';
 
 -- check tenant database exists and is started
 SELECT * FROM SYS.M_DATABASES;
@@ -18,18 +18,6 @@ ALTER DATABASE HXE ADD 'scriptserver';
 
 -- check script server
 SELECT * FROM SYS.M_SERVICES;
-
--- create user for PAL development
-CREATE USER DEVUSER PASSWORD Password1;
-
--- authorize access to SYS views
-GRANT CATALOG READ TO DEVUSER;
-
--- authorize creation & removal of PAL procedures
-GRANT AFLPM_CREATOR_ERASER_EXECUTE TO DEVUSER;
-
--- authorize execution of PAL procedures
-GRANT AFL__SYS_AFL_AFLPAL_EXECUTE TO DEVUSER;
 
 -- authorize WebIDE developers to access AFL metadata
 GRANT SELECT ON "_SYS"."AFL_AREAS" TO "SYS_XS_HANA_BROKER"."XSA_DEV_USER_ROLE";
